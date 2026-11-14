@@ -5,7 +5,7 @@ function setColor(c){root.style.setProperty("--ring",c.b);root.style.setProperty
 document.querySelectorAll(".sw").forEach(x=>x.setAttribute("aria-pressed",x.dataset.n===c.n));}
 $("#swatches").innerHTML=COLORS.map(c=>`<button class="sw" data-n="${c.n}" aria-label="${c.n}" aria-pressed="false" style="background:linear-gradient(135deg,${c.b} 50%,${c.l} 50%)"></button>`).join("");
 document.querySelectorAll(".sw").forEach((x,i)=>x.onclick=()=>setColor(COLORS[i]));setColor(COLORS[2]);
-const scr=$("#scr"),face=$("#face"),msgs=["Hi","Hello","Have a nice day","Recxa Tech"];let k=0,t=0;
+const scr=$("#scr"),face=$("#face"),msgs=["Hi","Hello","Recxa Tech"];let k=0,t=0;
 setInterval(()=>{t++;if(t%2){face.style.opacity=0;scr.textContent=msgs[k++%msgs.length];scr.style.opacity=1}else{scr.style.opacity=0;face.style.opacity=1}},2200);
 $("#gallery").innerHTML=PHOTOS.gallery.map((s,i)=>`<img src="${s}" alt="Orbi Ring photo ${i+1}" loading="lazy">`).join("");
 $("#oprice").textContent=O.price;
