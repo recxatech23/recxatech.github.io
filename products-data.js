@@ -12,7 +12,7 @@ bio:"Farhan started Recxa Tech to make technology feel friendly. He designs the 
 const PHOTOS={gallery:["assets/products/orbi-2.jpg","assets/products/orbi-4.jpg","assets/products/orbi-3.jpg"]};
 const COLORS=[{n:"Black & Red",b:"#1f1d2b",l:"#e5484d"},{n:"White & Purple",b:"#f4f1ff",l:"#8b5cf6"},{n:"Pink & Sky Blue",b:"#ff8fa3",l:"#7cc4ff"},{n:"Orange & Black",b:"#ff9a3c",l:"#1f1d2b"}];
 const PRODUCTS=[
-{id:"orbi",image:"assets/products/orbi-2.jpg",name:"Orbi Ring",cat:"Gadgets",status:"Available now",price:"920 BDT",available:true,icon:"",
+{id:"orbi",image:"assets/products/orbi-2.jpg",name:"Orbi Ring",cat:"Gadgets",status:"Available now",price:"930 BDT",available:true,icon:"",
  desc:"A portable, handy robotic key chain ring with a tiny screen and a big personality.",
  specs:["0.96\" OLED","500 mAh battery","Up to 5 days"],
  features:["Emotion faces and short greeting texts","Exciting mini games","Desktop mode: shows current weather and time","Customizable text, messages and faces","Attractive colors","Battery backup up to 5 days"]},
