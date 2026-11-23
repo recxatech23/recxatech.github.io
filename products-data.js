@@ -18,7 +18,7 @@ const PRODUCTS=[
  features:["Emotion faces and short greeting texts","Exciting mini games","Desktop mode: shows current weather and time","Customizable text, messages and faces","Attractive colors","Battery backup up to 5 days"]},
 {id:"bot",image:"assets/products/bot.jpg",name:"Cute Robots",cat:"Robots",status:"Coming soon",price:"",available:false,icon:"",
  desc:"Small, friendly desk robots with personality, built to make people smile.",specs:["Expressive","Desk-sized"]},
-{id:"drone",image:"",name:"Drones",cat:"Drones",status:"In development",price:"",available:false,icon:"🚁",
+{id:"drone",image:"assets/products/drone.jpg",name:"Drones",cat:"Drones",status:"In development",price:"",available:false,icon:"",
  desc:"Compact, smart drones for learning, filming and everyday problem solving.",specs:["Smart flight","Compact"]},
 {id:"smart",image:"",name:"Smart Solution Devices",cat:"Gadgets",status:"In development",price:"",available:false,icon:"💡",
  desc:"Connected devices that automate the small things at home and work.",specs:["IoT","App control"]},
