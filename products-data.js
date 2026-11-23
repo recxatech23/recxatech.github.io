@@ -16,7 +16,7 @@ const PRODUCTS=[
  desc:"A portable, handy robotic key chain ring with a tiny screen and a big personality.",
  specs:["0.96\" OLED","500 mAh battery","Up to 5 days"],
  features:["Emotion faces and short greeting texts","Exciting mini games","Desktop mode: shows current weather and time","Customizable text, messages and faces","Attractive colors","Battery backup up to 5 days"]},
-{id:"bot",image:"",name:"Cute Robots",cat:"Robots",status:"Coming soon",price:"",available:false,icon:"🤖",
+{id:"bot",image:"assets/products/bot.jpg",name:"Cute Robots",cat:"Robots",status:"Coming soon",price:"",available:false,icon:"",
  desc:"Small, friendly desk robots with personality, built to make people smile.",specs:["Expressive","Desk-sized"]},
 {id:"drone",image:"",name:"Drones",cat:"Drones",status:"In development",price:"",available:false,icon:"🚁",
  desc:"Compact, smart drones for learning, filming and everyday problem solving.",specs:["Smart flight","Compact"]},
